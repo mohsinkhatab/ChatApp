@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.mohsin.chatapp.StartActivity">
+
+    <TextView
+        android:id="@+id/chit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="Chit Chat"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/chit"
+
+
+        android:layout_marginTop="60dp"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/but"
+        android:id="@+id/but2"
+        android:text="Register"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"/>
+</RelativeLayout>
